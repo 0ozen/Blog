@@ -1,0 +1,28 @@
+.tags{
+  margin-top: 3rem;
+  margin-right: 2rem;
+  min-width: 100px;
+  max-height: 400px;
+  height: 50%;
+  background-color: rgba(59, 59, 59, 0.227);
+  border-radius: 5px;
+}
+.tags h3{  
+  user-select: none;
+  display: flex;
+  margin: 1rem;
+}
+.tags section{
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+.tags a{
+ cursor: pointer;
+ padding: 2px;
+}
+@media (max-width:600px) {
+  .tags{
+    display: none;
+  }
+}

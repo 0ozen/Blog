@@ -1,0 +1,41 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center ;
+  margin-top: 10rem;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  margin: 2rem;
+  text-decoration: none;
+  color: white;
+}
+.social-media a {
+  margin: 2rem;
+  text-decoration: none;
+}
+.social-media a:hover {
+    will-change: transform;
+    transition: all 0.3s cubic-bezier(0.81, -3.65, 0.55, 2.62);
+    transform: scale(1.1);
+    perspective: 800px;
+    rotate: 3deg;
+}
+.white {
+  color: white;
+}
+.social-media p:hover {
+  color: aquamarine;
+  transition: all 0.1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transform: translate(5%);
+}
+@media (max-width: 600px) {
+  .social-media{
+    margin: 1rem 0;
+  }
+  .social-media a {
+    margin: 1.5rem;
+  }
+}

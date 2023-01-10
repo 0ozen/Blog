@@ -1,0 +1,29 @@
+.react-autosuggest__suggestions-container--open {
+  position: absolute;
+  top: 75px;
+  background-color: rgb(38, 41, 46);
+  border-radius: 10px;
+  z-index: 10;
+  max-width: 320px;
+}
+.react-autosuggest__suggestions-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.sugerencia{
+  cursor: default;
+  text-decoration: none;
+  padding: 10px;
+}
+.sugerencia:hover{
+  border-radius: 10px;
+  transition: background-color 0.2s ease-in-out;
+  background-color: rgba(75, 75, 75, 0.802);
+}
+.day .react-autosuggest__suggestions-container--open{
+  background-color: rgb(163, 163, 163);
+}
+.day .sugerencia:hover{
+  background-color: rgba(118, 118, 118, 0.802);
+} 

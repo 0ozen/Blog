@@ -1,0 +1,61 @@
+.ver {
+  border-radius: 1rem;
+  display: flex;
+  width: 300px;
+  overflow-y: hidden;
+}
+.ver::-webkit-scrollbar {
+  display: none;
+}
+.github-cont {
+  user-select: none;
+  margin: 1rem;
+  color: rgb(246, 244, 244);
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.ver img {
+  border-radius: 1rem;
+}
+.ver:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 20px 0px rgb(0, 0, 0);
+}
+.ver::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  background-color: rgba(23, 23, 23, 0.501);
+  z-index: 3;
+}
+.github-cont article {
+  margin: 4rem 2rem;
+}
+.github-cont h1 {
+  padding: 1rem;
+  margin-top: 3rem;
+  margin-bottom: 0;
+}
+.new-section-posts{
+  padding: 1rem;
+}
+.projects section article a{
+  margin: 0 auto;
+}
+.projects section article h3{
+  margin-left: 2rem;
+}
+@media (max-width: 900px) {
+  .new-section-posts{
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .github-cont {
+    margin: 0;
+  }
+  .github-cont article {
+    margin: 4rem 5px;
+  }
+}
