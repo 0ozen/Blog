@@ -75,8 +75,8 @@ function App() {
             })
             }
             <div className='button'>
-              <button onClick={prev} className={finPrev ? null : "fin"}>  anterior</button>
-              <button onClick={next} className={finNext ? null : "fin"}>siguiente </button>
+              <button onClick={prev} className={finPrev ? null : "fin"}>anterior</button>
+              <button onClick={next} className={finNext ? null : "fin"}>siguiente</button>
             </div>
           </div>
           <Tags />
