@@ -1,0 +1,33 @@
+.section{
+  padding: 1rem;
+  min-width: 100px;
+  max-height: 400px;
+  width: 250px;
+  height: 200px;
+  margin: 2rem 0;
+  cursor: pointer;
+}
+.section::before{
+  border-radius: .5rem;
+  position: absolute;
+  width: 220px;
+  height: 170px;
+  padding: 1rem;
+  content: "";
+  background-image:  radial-gradient(#ffffff00, #3432324a 90%);
+  transition: .2s ease-in;
+  opacity: 0;
+}
+.section div{
+  padding: .5rem;
+}
+.section img{
+  border-radius: 10px;
+}
+.section:hover{
+  transition: .3s cubic-bezier(0.65, 0.05, 0.36, 1);
+  transform: scale(1.05);
+}
+.section:hover::before{
+  opacity: 1;
+}
